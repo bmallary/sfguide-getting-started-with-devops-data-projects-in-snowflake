@@ -7,5 +7,5 @@ define warehouse ANALYST_WH_{{ ENV }}
     AUTO_SUSPEND = 1200;
 
 define warehouse DATA_SCIENCE_WH_{{ ENV }}
-    WAREHOUSE_SIZE = LARGE
+    WAREHOUSE_SIZE = MEDIUM
     AUTO_SUSPEND = 60;
